@@ -19,7 +19,7 @@ const Home: NextPage = () => {
           <h2 className={styles.footer}>
             hello
           </h2>
-        <Link href = "/listings" >See all listings</Link>
+        <Link href = "https://htn2021website.vercel.app/listings" >See all listings</Link>
 
       </main>
 
