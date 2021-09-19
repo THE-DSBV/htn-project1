@@ -13,7 +13,7 @@ export const getAllListings = async (mongo: any) => {
   return mongo
     .collection(AIRBNB_COLLECTION_NAME)
     .find()
-    .limit(100)
+    .limit(10)
     .toArray() as Promise<any[]>
 }
 
